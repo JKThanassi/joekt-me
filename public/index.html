@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link href="style.css" rel="stylesheet">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <title>Joseph Kaming-Thanassi</title>
+    </head>
+    
+    <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+            <div class="collapse navbar-collapse">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#info-block">About Me</a>
+                    <a class="nav-item nav-link active" href="#projects">Projects</a>
+                    <a class="nav-item nav-link active" href="#getInTouch">Get In Touch</a>
+                </div>
+            </div>
+        </nav>
+        <div id="page">
+            <div id="info-block">
+                <div class = "row align-items-center">
+                    <div class="col-md">
+                        <img src="./resources/headshot.jpg" class="rounded-circle" id="headshot">
+                    </div>
+                    <div class="col-md-8">
+                        <h1 class="title-text">Hi, I'm Joseph Kaming-Thanassi.</h1>
+                        <h2 class="title-text">I study computer science at Worcester Polytechnic Institute</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="projectText">
+                
+            </div>
+            <div class="card-deck" id="projects">
+                <!--XPDVIEW CARD--> 
+                <div class="card"id="xpdCard">
+                    <!--
+                    <img class="card-image-top" src="./resources/xpdviewImage.jpg" alt="xpd Poster">
+                    -->
+                    <div class="card-body">
+                        <h5 class="card-title">xpdView</h5>
+                        <p class="card-text">I helped develop a software package for real-time data analysis, 
+                            named xpdView, for the XPD beamline at NSLS-II as a part of a team of college interns and researchers. 
+                            It was written in Python and used PyQt and MatPlotLib libraries for graphing and the user interface. 
+                            The software is used by beamline scientists at XPD beamline to view experimental trends in data as they occur.</p>
+                        <div class="row justify-content-center ">
+                            <div class="col-4">
+                                <a href="https://github.com/JKThanassi/xpdView" class="btn btn-primary">GitHub</a>
+                            </div>
+                            <div class="col-4">
+                                <a href="./resources/xpdViewposter.jpg" class="btn btn-primary">Poster</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                     <div class="card"id="capstoneCard">
+                        <!--
+                        <img class="card-image-top" src="./resources/xpdviewImage.jpg" alt="xpd Poster">
+                        -->
+                        <div class="card-body">
+                            <h5 class="card-title">Engineering Capstone</h5>
+                            <p class="card-text">I built networking functionality into an Android app that calculates a phones 
+                                position in 3D space for my high school engineering capstone. I collaborated with Google Scholar grant receiving researchers at Stony Brook University. 
+                                I used the Android API as well as the Java network stack to allow the phone to talk to a locally hosted server. 
+                                </p>
+                            <div class="row justify-content-center">
+                                <div class="col-4">
+                                    <a href="https://github.com/JKThanassi/xpdView" class="btn btn-primary">GitHub</a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="./resources/BatTracker.pptx" class="btn btn-primary">Slides</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="card"id="xpdCard">
+                            <!--
+                            <img class="card-image-top" src="./resources/xpdviewImage.jpg" alt="xpd Poster">
+                            -->
+                            <div class="card-body">
+                                <h5 class="card-title">Expression Editor</h5>
+                                <p class="card-text">I built a graphical expression editor using a recursive descent parser and JavaFX. 
+                                    Unfortunately, the rules of my school do not allow me to post the code in a public repository, but see the attached video to see the program in action. </p>
+                                <div class="row justify-content-center">
+                                    <div class="col-4">
+                                        <a href="#" class="btn btn-primary disabled">GitHub</a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="./resources/expression_editor_mp4.m4v" class="btn btn-primary">Video</a>
+                                        <!--
+                                        <button type="button" class="btn btn-primary" onclick="videoPopup()">Video</button>
+                                        -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        <footer id="getInTouch">
+        <div class="footer-backdrop">
+            <div class="row justify-content-start">
+                <div class="col-md">
+                    <h2 class="title-text footer-text">Get In Touch</h2>
+                </div>
+            </div>
+            <div class="row justify-content-start" id="footerIcons">
+                <div class="col-md-3">
+                    <a href="https://www.linkedin.com/in/joseph-kt/"><i class="fab fa-linkedin fa-2x"></i></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="http://www.github.com/JKThanassi"><i class="fab fa-github-square fa-2x"></i></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="mailto:jkamingthanassi@wpi.edu"><i class="fas fa-envelope-square fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+        </footer>
+    </body>
+</html>
